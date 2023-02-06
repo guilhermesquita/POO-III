@@ -26,7 +26,7 @@ export class VideosController {
         }
     };
 
-    public creatVideos = async (req: Request, res: Response) => {
+    public createVideos = async (req: Request, res: Response) => {
         try {
     
             const {id, title, duration} = req.body
